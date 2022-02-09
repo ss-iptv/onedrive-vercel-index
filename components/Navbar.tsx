@@ -81,12 +81,8 @@ const Navbar = () => {
               <span className="text-sm font-medium">{t('Search ...')}</span>
             </div>
 
-            <div className="flex items-center space-x-1">
-              <div className="rounded-lg bg-gray-200 px-2 py-1 text-xs font-medium dark:bg-gray-700">
-                {os === 'mac' ? '⌘' : 'Ctrl'}
-              </div>
-              <div className="rounded-lg bg-gray-200 px-2 py-1 text-xs font-medium dark:bg-gray-700">K</div>
-            </div>
+            
+             
           </button>
 
           <SwitchLang />
