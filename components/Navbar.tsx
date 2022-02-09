@@ -65,7 +65,7 @@ const Navbar = () => {
 
       <div className="mx-auto flex w-full items-center justify-between space-x-4 px-4 py-4">
         <Link href="http://nanven.icedeer.net" passHref>
-          <a style={{height:28px}} className="flex items-center space-x-2 py-2 hover:opacity-80 dark:text-white md:p-2">
+          <a style={{height:'28px'}} className="flex items-center space-x-2 py-2 hover:opacity-80 dark:text-white md:p-2">
             <Image src='/images/nanven.svg' alt="icon" width="117" height="28" />
             
           </a>
