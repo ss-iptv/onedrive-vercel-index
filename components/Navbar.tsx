@@ -63,11 +63,11 @@ const Navbar = () => {
 
       <SearchModal searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
 
-      <div className="mx-auto flex w-full items-center justify-between space-x-4 px-4 py-1">
-        <Link href="/" passHref>
-          <a className="flex items-center space-x-2 py-2 hover:opacity-80 dark:text-white md:p-2">
-            <Image src={siteConfig.icon} alt="icon" width="25" height="25" priority />
-            <span className="hidden font-bold sm:block">{siteConfig.title}</span>
+      <div className="mx-auto flex w-full items-center justify-between space-x-4 px-4 py-4">
+        <Link href="http://nanven.icedeer.net" passHref>
+          <a style={{height:28px}} className="flex items-center space-x-2 py-2 hover:opacity-80 dark:text-white md:p-2">
+            <Image src='/images/nanven.svg' alt="icon" width="117" height="28" />
+            
           </a>
         </Link>
 
